@@ -1,6 +1,6 @@
 const mongodb = require('mongodb')
 const MongoClient = mongodb.MongoClient
-const client = new MongoClient('mongodb+srv://otimemma270:e1rIOmt3OQKpHx6m@library.a46n7.mongodb.net/?retryWrites=true&w=majority&appName=library')
+const client = new MongoClient('<add you mongodb URL>')
 let _db
 const mongoConnect = (cb)=>{
     client.connect().then((client)=>{
